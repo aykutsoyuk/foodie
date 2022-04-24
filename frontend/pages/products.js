@@ -1,5 +1,10 @@
 import React from "react";
+import Products from "../components/Products";
 
-const Products = () => <div>products</div>;
+const OrderPage = () => (
+  <div>
+    <Products />
+  </div>
+);
 
-export default Products;
+export default OrderPage;
